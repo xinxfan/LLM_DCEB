@@ -1,3 +1,6 @@
+**Contributor:** 
+Hao Yuan, Xinxin Fan
+
 # Data & Open-Source Information
 
 This directory contains training code, deployment scripts, baseline evaluation, and reference implementations for testing closed-source APIs (Gemini and GPT). It supports reproducing the pipeline: **train classifier & generation models → deploy with classifier + PDD → evaluate on ATT / PATT / Normal / GSM8K**.
