@@ -1,8 +1,8 @@
-# Contributor: 
+# Authors: 
 Hao Yuan, Xinxin Fan
 
 # Open-Source Information & Data
-This set of code resource realizes a deterministic context embedding booster (DCEB), and conduct comprehensive experiments spanning diverse jailbreak taxonomies on both open- \&closed-source LLMs, and compare with representative baselines ranging from parameter-based, reasoning-based, to guardrailbased defense paradigms. The results show DCEB achieves substantial improvements in defense success rate, refusal specificity, and token efficiency. 
+This set of code resource realizes a deterministic context embedding booster (DCEB), and conduct comprehensive experiments spanning diverse jailbreak taxonomies on both open- \&closed-source LLMs, and compare with representative baselines across paradigms on Qwen2.5-7B-Instruct and Llama-3-8B-Instruct: fine-tuning defenses (LoRA-SFT, LoRA-CoT, r ∈ {16,32,64}); inference-time and hybrid methods composed with the same LoRA-SFT backbone (DPP, PromptGuard, Llama-Guard, SelfDefend, SmoothLLM, ICAG, ICD); a Constitutional Classifiers-style blocking baseline in inputonly and input+output variants, plus pre- and post-inference self-evaluation; and six closed-source models (GPT5.2, GPT-5 Mini, GPT-4o Mini, Gemini-3 Pro, Gemini-2.5 Pro/Flash). The results show DCEB achieves substantial improvements in defense success rate, refusal specificity, and token efficiency. 
 
 This directory contains training code, deployment scripts, baseline evaluation, and reference implementations for testing closed-source APIs (Gemini and GPT). It supports reproducing the pipeline: **train classifier & generation models → deploy with classifier + PDD → evaluate on ATT / PATT / Normal / GSM8K**.
 
