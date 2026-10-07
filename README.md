@@ -1,7 +1,6 @@
 **Contributor:** 
 Hao Yuan, Xinxin Fan
 
-
 # Open-Source Information & Data
 In this code resource, we realize a deterministic context embedding booster (DCEB), and conduct comprehensive experiments spanning diverse jailbreak taxonomies on both open-source and closed-source LLMs, and compare with representative baselines ranging from parameter-based, reasoning-based, to guardrailbased defense paradigms. The experimental results show DCEB achieves substantial improvements in defense success rate, refusal specificity, and token efficiency. 
 
